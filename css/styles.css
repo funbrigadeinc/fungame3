@@ -1,0 +1,59 @@
+/************** TAG SELECTORS ************/
+canvas {
+  border: 1px solid #d3d3d3;
+  /*background-color: #f1f1f1;*/
+  background-color: #8B4513;
+  /*background-color: white;*/
+  /*display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;*/
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+button{
+  width: 55px;
+  height: 35px;
+}
+
+/************** CLASS SELECTORS ************/
+
+.verticalbuttons{
+  width: 115px;
+  height: 35px;
+}
+.playercontrols{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+  background-color: Grey;
+}
+.playername{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 25px;
+}
+
+/************** CLASS SELECTORS ************/
+#coolyname{
+  color: MediumBlue;
+}
+#smilyname{
+  color: Gold;
+}
+#crazyname{
+  color: Yellow;
+}
+#angryname{
+  color: Tomato;
+}
+#naughtyname{
+  color: Aquamarine;
+}
+#evilname{
+  color: purple;
+}
+#alienname{
+  color: purple;
+}

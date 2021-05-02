@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forest Maze</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="javascript/maze.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Joti+One&display=swap" rel="stylesheet">
+  </head>
+  <body onload="loadGame();">
+    <div class="playercontrols">
+    <table>
+    <tr> <td>
+      <table>
+        <tr>
+          <td class="playername" id="coolyname" colspan="2">Cooly</td>
+          <td>
+            <tr>
+              <td colspan="2"><button class="verticalbuttons" onmousedown="move1up()" onmouseup="stop1Move()" ontouchstart="move1up()">UP</button></td>
+            </tr>
+            <tr>
+              <td><button onmousedown="move1left()" onmouseup="stop1Move()" ontouchstart="move1left()">LEFT</button></td>
+              <td><button onmousedown="move1right()" onmouseup="stop1Move()" ontouchstart="move1right()">RIGHT</button></td>
+            </tr>
+            <tr>
+              <td colspan="2"><button class="verticalbuttons" onmousedown="move1down()" onmouseup="stop1Move()" ontouchstart="move1down()">DOWN</button></td>
+            </tr>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td class="playername"  id="angryname" colspan="2">Angry</td>
+          <td>
+            <tr><td colspan="2"><button class="verticalbuttons" onmousedown="move3up()" onmouseup="stop3Move()" ontouchstart="move3up()">UP</button></td> </tr>
+            <tr>
+              <td><button onmousedown="move3left()" onmouseup="stop3Move()" ontouchstart="move3left()">LEFT</button></td>
+              <td><button onmousedown="move3right()" onmouseup="stop3Move()" ontouchstart="move3right()">RIGHT</button></td>
+            </tr>
+            <tr> <td colspan="2"><button class="verticalbuttons" onmousedown="move3down()" onmouseup="stop3Move()" ontouchstart="move3down()">DOWN</button></td>  </tr>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td class="playername"  id="crazyname" colspan="2">Crazy</td>
+          <td>
+            <tr><td colspan="2"><button class="verticalbuttons" onmousedown="move5up()" onmouseup="stop5Move()" ontouchstart="move5up()">UP</button></td> </tr>
+            <tr>
+              <td><button onmousedown="move5left()" onmouseup="stop5Move()" ontouchstart="move5left()">LEFT</button></td>
+              <td><button onmousedown="move5right()" onmouseup="stop5Move()" ontouchstart="move5right()">RIGHT</button></td>
+            </tr>
+            <tr> <td colspan="2"><button class="verticalbuttons" onmousedown="move5down()" onmouseup="stop5Move()" ontouchstart="move5down()">DOWN</button></td>  </tr>
+          </td>
+        </tr>
+      </table>
+      <br>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td class="playername"  id="smilyname" colspan="2">Smily</td>
+            <td>
+              <tr><td colspan="2"><button class="verticalbuttons" onmousedown="move2up()" onmouseup="stop2Move()" ontouchstart="move2up()">UP</button></td> </tr>
+              <tr>
+                <td><button onmousedown="move2left()" onmouseup="stop2Move()" ontouchstart="move2left()">LEFT</button></td>
+                <td><button onmousedown="move2right()" onmouseup="stop2Move()" ontouchstart="move2right()">RIGHT</button></td>
+              </tr>
+              <tr> <td colspan="2"><button class="verticalbuttons" onmousedown="move2down()" onmouseup="stop2Move()" ontouchstart="move2down()">DOWN</button></td>  </tr>
+            </td>
+          </tr>
+        </table>
+      <br>
+      <table>
+        <tr>
+          <td class="playername"  id="naughtyname" colspan="2">Naughty</td>
+          <td>
+            <tr><td colspan="2"><button class="verticalbuttons" onmousedown="move4up()" onmouseup="stop4Move()" ontouchstart="move4up()">UP</button></td> </tr>
+            <tr>
+              <td><button onmousedown="move4left()" onmouseup="stop4Move()" ontouchstart="move4left()">LEFT</button></td>
+              <td><button onmousedown="move4right()" onmouseup="stop4Move()" ontouchstart="move4right()">RIGHT</button></td>
+            </tr>
+            <tr> <td colspan="2"><button class="verticalbuttons" onmousedown="move4down()" onmouseup="stop4Move()" ontouchstart="move4down()">DOWN</button></td>  </tr>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td class="playername"  id="alienname" colspan="2">Alien</td>
+          <td>
+            <tr><td colspan="2"><button class="verticalbuttons" onmousedown="move6up()" onmouseup="stop6Move()" ontouchstart="move6up()">UP</button></td> </tr>
+            <tr>
+              <td><button onmousedown="move6left()" onmouseup="stop6Move()" ontouchstart="move6left()">LEFT</button></td>
+              <td><button onmousedown="move6right()" onmouseup="stop6Move()" ontouchstart="move6right()">RIGHT</button></td>
+            </tr>
+            <tr> <td colspan="2"><button class="verticalbuttons" onmousedown="move6down()" onmouseup="stop6Move()" ontouchstart="move6down()">DOWN</button></td>  </tr>
+          </td>
+        </tr>
+      </table>
+      <br>
+      </td> </tr>
+      </table>
+    </div>
+  </body>
+</html>
