@@ -386,7 +386,6 @@ obstacles[94] = new component(50,5, "green", 700, 950);
 obstacles[95] = new component(100,5, "green", 900, 950);
 
 // 1 Row Vert - 200 500 800 900 - 50 100 50 100
-//obstacles[96] = new component(5, 50, "green", 50, 50);
 obstacles[96] = new component(5, 55, "green", 50, 200);
 obstacles[97] = new component(5, 100, "green", 50, 500);
 obstacles[98] = new component(5, 50, "green", 50, 800);
@@ -417,104 +416,8 @@ obstacles[118] = new component(5, 55, "green", 250, 250);
 obstacles[119] = new component(5, 50, "green", 250, 400);
 obstacles[120] = new component(5, 155, "green", 250, 700);
 obstacles[121] = new component(5, 100, "green", 250, 900);
-// 6 Row Vert - 50 250 550 700 - 150 250 100 200
-obstacles[122] = new component(5, 155, "green", 300, 50);
-obstacles[123] = new component(5, 255, "green", 300, 250);
-obstacles[124] = new component(5, 100, "green", 300, 550);
-obstacles[125] = new component(5, 200, "green", 300, 700);
-// 7 Row Vert - 0 100 300 600 900 - 50 100 200 50 100
-obstacles[126] = new component(5, 50, "green", 350, 0);
-obstacles[127] = new component(5, 100, "green", 350, 100);
-obstacles[128] = new component(5, 200, "green", 350, 300);
-obstacles[129] = new component(5, 50, "green", 350, 600);
-obstacles[130] = new component(5, 100, "green", 350, 900);
-// 8 Row Vert - 150 350 500 800 950 - 100 50 50 50 50
-obstacles[131] = new component(5, 105, "green", 400, 150);
-obstacles[132] = new component(5, 55, "green", 400, 350);
-obstacles[133] = new component(5, 50, "green", 400, 500);
-obstacles[134] = new component(5, 50, "green", 400, 800);
-obstacles[135] = new component(5, 50, "green", 400, 950);
-// 9 Row Vert - 0 200 300 650 850 - 100 50 200 50 100
-obstacles[136] = new component(5, 100, "green", 450, 0);
-obstacles[137] = new component(5, 50, "green", 450, 200);
-obstacles[138] = new component(5, 200, "green", 450, 300);
-obstacles[139] = new component(5, 55, "green", 450, 650);
-obstacles[140] = new component(5, 100, "green", 450, 850);
-// 10 Row Vert - 100 250 700 900 - 50 300 150 100
-obstacles[141] = new component(5, 50, "green", 500, 100);
-obstacles[142] = new component(5, 305, "green", 500, 250);
-obstacles[143] = new component(5, 150, "green", 500, 700);
-obstacles[144] = new component(5, 105, "green", 500, 900);
-// 11 Row Vert - 50 150 250 350 550 700 950 - 50 50 50 150 100 50 50
-obstacles[145] = new component(5, 50, "green", 550, 50);
-obstacles[146] = new component(5, 55, "green", 550, 150);
-obstacles[147] = new component(5, 50, "green", 550, 250);
-obstacles[148] = new component(5, 150, "green", 550, 350);
-obstacles[149] = new component(5, 100, "green", 550, 550);
-obstacles[150] = new component(5, 50, "green", 550, 700);
-obstacles[151] = new component(5, 50, "green", 550, 950);
-// 12 Row Vert - 0 200 400 550 700 - 50 100 50 50 100
-obstacles[152] = new component(5, 50, "green", 600, 0);
-obstacles[153] = new component(5, 100, "green", 600, 200);
-obstacles[154] = new component(5, 50, "green", 600, 400);
-obstacles[155] = new component(5, 50, "green", 600, 550);
-obstacles[156] = new component(5, 100, "green", 600, 700);
-// 13 Row Vert - 0 150 800 950 - 100 100 100 50
-obstacles[157] = new component(5, 100, "green", 650, 0);
-obstacles[158] = new component(5, 100, "green", 650, 150);
-obstacles[159] = new component(5, 100, "green", 650, 800);
-obstacles[160] = new component(5, 50, "green", 650, 950);
-// 14 Row Vert - 100 600 750 900 - 450 50 100 50
-obstacles[161] = new component(5, 450, "green", 700, 100);
-obstacles[162] = new component(5, 55, "green", 700, 600);
-obstacles[163] = new component(5, 100, "green", 700, 750);
-obstacles[164] = new component(5, 50, "green", 700, 900);
-// 15 Row Vert - 0 550 850  - 250 150 50
-obstacles[165] = new component(5, 250, "green", 750, 0);
-obstacles[166] = new component(5, 155, "green", 750, 550);
-obstacles[167] = new component(5, 50, "green", 750, 850);
-// 16 Row Vert - 50 250 350 650 900 - 100 50 150 100 50
-obstacles[168] = new component(5, 100, "green", 800, 50);
-obstacles[169] = new component(5, 55, "green", 800, 250);
-obstacles[170] = new component(5, 150, "green", 800, 350);
-obstacles[171] = new component(5, 105, "green", 800, 650);
-obstacles[172] = new component(5, 50, "green", 800, 900);
-// 17 Row Vert - 0 150 300 550 700 900 - 100 100 50 100 100 50
-obstacles[173] = new component(5, 100, "green", 850, 0);
-obstacles[174] = new component(5, 105, "green", 850, 150);
-obstacles[175] = new component(5, 55, "green", 850, 300);
-obstacles[176] = new component(5, 100, "green", 850, 550);
-obstacles[177] = new component(5, 105, "green", 850, 700);
-obstacles[178] = new component(5, 50, "green", 850, 900);
-// 18 Row Vert - 0 100 350 450 950 - 50 150 50 350 50
-obstacles[179] = new component(5, 50, "green", 900, 0);
-obstacles[180] = new component(5, 150, "green", 900, 100);
-obstacles[181] = new component(5, 50, "green", 900, 350);
-obstacles[182] = new component(5, 350, "green", 900, 450);
-obstacles[183] = new component(5, 50, "green", 900, 950);
-// 19 Row Vert - 150 300 550 - 50 50 250
-obstacles[184] = new component(5, 50, "green", 950, 150);
-obstacles[185] = new component(5, 55, "green", 950, 300);
-obstacles[186] = new component(5, 255, "green", 950, 550);
 
-// Additional Verticals - 50,50 , 500,200 , 400,250, , 850,400 , 300,650 , 850,800 - 50 50 50 50  50 50
-obstacles[187] = new component(5, 50, "green", 50, 50);
-obstacles[188] = new component(5, 50, "green", 500, 200);
-obstacles[189] = new component(5, 50, "green", 400, 250);
-obstacles[190] = new component(5, 50, "green", 850, 400);
-obstacles[191] = new component(5, 50, "green", 300, 650);
-obstacles[192] = new component(5, 50, "green", 850, 800);
-obstacles[193] = new component(5, 55, "green", 900, 250);
-obstacles[194] = new component(5, 55, "green", 950, 50);
-obstacles[195] = new component(5, 55, "green", 650, 450);
 
-// Additional Horizantal - 400,300 , 100,700 , 800, 950
-obstacles[196] = new component(50, 5, "green", 400, 300);
-obstacles[197] = new component(105, 5, "green", 50, 700);
-obstacles[198] = new component(55, 5, "green", 800, 950);
-obstacles[199] = new component(55, 5, "green", 800, 650);
-obstacles[200] = new component(50, 5, "green", 150, 450);
-obstacles[201] = new component(50, 5, "green", 900, 250);
 
 
 }

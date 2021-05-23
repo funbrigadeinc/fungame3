@@ -1,13 +1,12 @@
 /************** TAG SELECTORS ************/
+/*
+font-family: 'Carter One', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Joti One', cursive;
+*/
 canvas {
   border: 1px solid #d3d3d3;
-  /*background-color: #f1f1f1;*/
-  background-color: #8B4513;
-  /*background-color: white;*/
-  /*display: block;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;*/
+  background-color: #080808;
   position: absolute;
   top: 10px;
   left: 300px;
@@ -19,23 +18,38 @@ button{
 
 /************** CLASS SELECTORS ************/
 
+.dashboard{
+  position: fixed;
+  left: 20px;
+}
+.playercontrolsdiv{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background-color: Grey;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+.outputdiv{
+  font-size: 15px;
+  width: 260px;
+  height: 60px;
+  color: forestgreen;
+  font-family: 'Carter One', cursive;
+  border: 4px;
+  border-style: inset;
+  border-color: forestgreen;
+}
 .verticalbuttons{
   width: 115px;
   height: 35px;
-}
-.playercontrols{
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  position: absolute;
-  left: 20px;
-  background-color: Grey;
 }
 .playername{
   font-family: 'Gochi Hand', cursive;
   font-size: 25px;
 }
 
-/************** CLASS SELECTORS ************/
+/************** ID SELECTORS ************/
 #coolyname{
   color: MediumBlue;
 }
@@ -56,4 +70,11 @@ button{
 }
 #alienname{
   color: purple;
+}
+
+#output{
+  margin-left: 6px;
+  margin-top: 3px;
+  margin-right: 2px;
+  margin-bottom: 2px;
 }
